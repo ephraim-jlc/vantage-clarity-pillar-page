@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Vantage Clarity™ — visual mockup</title>
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;background:#FFFFFF;color:#0A0A0A;}
+  a{color:inherit;text-decoration:none;}
+  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;}
+  button{font-family:inherit;}
+  .row{display:grid;grid-template-columns:5fr 7fr;column-gap:56px;}
+</style>
+</helmet>
+
+<div style="width:1280px;min-height:6200px;box-sizing:border-box;display:flex;flex-direction:column;background:#FFFFFF;">
+
+  <!-- HEADER -->
+  <div style="width:100%;box-sizing:border-box;padding:0 56px;min-height:96px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ECECEC;">
+    <div style="font-size:20px;font-weight:700;letter-spacing:0.01em;color:#0A0A0A;">VANTAGE</div>
+    <nav style="display:flex;align-items:center;gap:36px;">
+      <span style="font-size:14px;color:#0A0A0A;">Home</span>
+      <span style="font-size:14px;color:#0A0A0A;">About</span>
+      <span style="font-size:14px;color:#0A0A0A;font-weight:600;">Services ⌄</span>
+      <span style="font-size:14px;color:#0A0A0A;">Projects</span>
+      <span style="font-size:14px;color:#0A0A0A;">Library</span>
+      <span style="font-size:14px;color:#0A0A0A;">Team</span>
+      <a href="#" style="font-size:14px;color:#0A0A0A;font-weight:600;border:1px solid #0A0A0A;padding:10px 22px;">Contact</a>
+    </nav>
+  </div>
+
+  <!-- HERO: text on plain background (2-panel), full-width photo below -->
+  <div style="width:100%;box-sizing:border-box;padding:64px 56px 0 56px;">
+    <div class="row">
+      <div style="font-size:14px;color:#797979;padding-top:6px;">Services</div>
+      <div style="display:flex;flex-direction:column;gap:20px;">
+        <div class="mono" style="font-size:24px;letter-spacing:-0.03em;color:#0A0A0A;">Decision-grade retrofit feasibility</div>
+        <h1 style="margin:0;font-size:76px;line-height:1.02;letter-spacing:-0.01em;color:#0A0A0A;font-weight:700;">Vantage Clarity™</h1>
+        <div style="font-size:19px;line-height:1.55;color:#333333;max-width:640px;">Vantage deliver end-to-end retrofit and refurbishment strategies, from design and planning through to principal delivery. Clarity™ is how we take a portfolio-level question and turn it into a decision-grade retrofit strategy, before you commit capital.</div>
+        <div style="margin-top:6px;">
+          <a href="#" style="display:inline-block;background:transparent;border:1px solid #0A0A0A;color:#0A0A0A;font-size:18px;font-weight:600;padding:16px 32px;">Let's talk →</a>
+        </div>
+      </div>
+    </div>
+    <div style="position:relative;width:100%;height:640px;margin-top:56px;background:repeating-linear-gradient(135deg,#E9E9E9,#E9E9E9 18px,#DEDEDE 18px,#DEDEDE 36px);">
+      <div style="position: absolute; left: 16px; bottom: 14px; font-size: 15px; color: #8A8A8A" class="mono">[ Vantage Clarity Video ]</div>
+    </div>
+  </div>
+
+  <!-- DEFINITION CALLOUT (new block — deliberately set apart from the grid) -->
+  <div style="width:100%;box-sizing:border-box;padding:96px 56px;min-height:340px;background:#F5F5F5;display:flex;flex-direction:column;align-items:center;text-align:center;gap:24px;">
+    <div style="display: flex; align-items: baseline; gap: 16px; width: 795px; height: 29px; justify-content: center"><span style="font-size: 40px; font-weight: 700; color: rgb(10, 10, 10); text-shadow: 0px 1px 3px #00000033">clar • i • ty</span>
+      <span class="mono" style="font-size: 24px; letter-spacing: -0.02em; color: rgb(121, 121, 121); text-shadow: 0px 1px 3px #00000033">/noun/ retrofit definition</span>
+    </div>
+    <div style="font-size: 27px; line-height: 1.5; color: #1A1A1A; max-width: 780px; font-weight: 500; height: 104px; width: 795px">Clarity is knowing, before you commit, that every viable option has been tested, buildability is confirmed, and EPC rating uplifts are secured</div>
+  </div>
+
+  <!-- THE VANTAGE MODEL (2-panel, accordion-row pattern with image + copy per row) -->
+  <div style="width:100%;box-sizing:border-box;padding:96px 56px;">
+    <div class="row">
+      <div style="display:flex;flex-direction:column;gap:16px;">
+        <h2 style="margin: 0; font-size: 28px; line-height: 1.1; color: #0A0A0A; font-weight: 700">The Vantage Model</h2>
+        <div style="font-size:16px;line-height:1.6;color:#797979;max-width:360px;">Vantage deliver end-to-end retrofit and refurbishment strategies. Clarity™ sits inside a wider model that runs from first analysis to principal delivery.</div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;">
+
+        <div style="border-top:1px solid #0A0A0A;padding:36px 0;display:grid;grid-template-columns:200px 1fr;gap:32px;align-items:center;">
+          <div style="position:relative;height:140px;background:repeating-linear-gradient(135deg,#E9E9E9,#E9E9E9 12px,#DEDEDE 12px,#DEDEDE 24px);"></div>
+          <div style="display:flex;flex-direction:column;gap:8px;">
+            
+            <div style="font-size:28px;font-weight:700;color:#0A0A0A;line-height:1.15;">Feasibility &amp; Analytics</div>
+            <div style="font-size:15px;line-height:1.6;color:#4A4A4A;max-width:480px;">Enhanced portfolio analysis for programme, cost and outcomes, managing risk and execution through to completion.</div>
+          </div>
+        </div><div style="border-top:1px solid #0A0A0A;padding:36px 0;display:grid;grid-template-columns:200px 1fr;gap:32px;align-items:center;">
+          <div style="position:relative;height:140px;background:repeating-linear-gradient(135deg,#E9E9E9,#E9E9E9 12px,#DEDEDE 12px,#DEDEDE 24px);"></div>
+          <div style="display:flex;flex-direction:column;gap:8px;">
+            
+            <div style="font-size:28px;font-weight:700;color:#0A0A0A;line-height:1.15;">Design &amp; Planning</div>
+            <div style="font-size:15px;line-height:1.6;color:#4A4A4A;max-width:480px;">Design and planning focused on buildability, cost certainty and planning success, setting projects up for efficient delivery.</div>
+          </div>
+        </div>
+
+        
+
+        <div style="border-top:1px solid #0A0A0A;padding:36px 0;display:grid;grid-template-columns:200px 1fr;gap:32px;align-items:center;">
+          <div style="position:relative;height:140px;background:repeating-linear-gradient(135deg,#E9E9E9,#E9E9E9 12px,#DEDEDE 12px,#DEDEDE 24px);"></div>
+          <div style="display:flex;flex-direction:column;gap:8px;">
+            
+            <div style="font-size:28px;font-weight:700;color:#0A0A0A;line-height:1.15;">Tendering &amp; Procurement</div>
+            <div style="font-size:15px;line-height:1.6;color:#4A4A4A;max-width:480px;">Open book tendering with full pricing transparency and tender reporting, fixing project cost and scope before contract commitment.</div>
+          </div>
+        </div>
+
+        <div style="border-top:1px solid #0A0A0A;border-bottom:1px solid #0A0A0A;padding:36px 0;display:grid;grid-template-columns:200px 1fr;gap:32px;align-items:center;">
+          <div style="position:relative;height:140px;background:repeating-linear-gradient(135deg,#E9E9E9,#E9E9E9 12px,#DEDEDE 12px,#DEDEDE 24px);"></div>
+          <div style="display:flex;flex-direction:column;gap:8px;">
+            
+            <div style="font-size:28px;font-weight:700;color:#0A0A0A;line-height:1.15;">Principal Delivery</div>
+            <div style="font-size:15px;line-height:1.6;color:#4A4A4A;max-width:480px;">Full delivery accountability, giving you investment grade clarity on retrofit viability, cost exposure and value upside.</div>
+          </div>
+        </div>
+
+        <div style="padding:32px 0 0 0;font-size:19px;font-weight:600;color:#0A0A0A;max-width:560px;">We act as your technical partner, delivering deal clarity, simplified execution, and full accountability from day one.</div><div style="margin-top: 15px">
+          <a href="#" style="display:inline-block;background:transparent;border:1px solid #0A0A0A;color:#0A0A0A;font-size:18px;font-weight:600;padding:16px 32px;">Let's talk →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HOW VANTAGE CLARITY WORKS (2-panel) -->
+  <div style="width:100%;box-sizing:border-box;padding:96px 56px;background:#F5F5F5;">
+    <div class="row">
+      <div style="display:flex;flex-direction:column;gap:16px;">
+        <h2 style="margin: 0; font-size: 28px; line-height: 1.1; color: #0A0A0A; font-weight: 700">Vantage Clarity™ vs. Traditional Retrofit And MEES Reports</h2>
+        
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:40px;">
+
+        <div style="display:flex;flex-direction:column;gap:14px;max-width:680px;">
+          <div class="mono" style="font-size: 26px; font-weight: 700; letter-spacing: 0.06em; text-transform: capitalize; color: #333333">Traditional Retrofit and MEES Compliance</div>
+          <div style="font-size:16px;line-height:1.6;color:#333333;">Traditional retrofit strategies are commonly underwritten before installer validation and buildability are confirmed, with delivery certainty emerging late in the process.</div>
+          <div style="font-size:16px;line-height:1.7;color:#333333;"><strong style="color:#0A0A0A;">Conceptual.</strong> Strategies are typically high level and indicative. Asset-specific scope, buildability and true cost only emerge after further design and professional team input.</div>
+          <div style="font-size:16px;line-height:1.7;color:#333333;"><strong style="color:#0A0A0A;">Advisory.</strong> Early retrofit routes are advisory only, with accountability for cost accuracy and outcome excluded. Caveated estimates leave material risk with you at decision stage.</div>
+          <div style="font-size:16px;line-height:1.7;color:#333333;"><strong style="color:#0A0A0A;">Deferred.</strong> Installer input and pricing is obtained late in the process. You wait months before contractors are engaged to provide pricing and risk insight.</div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 14px; max-width: 680px; padding-top: 20px; border-top: 1px solid #0A0A0A">
+          <div class="mono" style="font-size: 26px; font-weight: 700; letter-spacing: 0.06em; text-transform: capitalize; color: #333333">Vantage Clarity™</div>
+          <div style="font-size:16px;line-height:1.6;color:#333333;">Vantage Clarity™ lets you test, price and underwrite retrofit strategies early, using real delivery insight rather than high-level advice.</div>
+          <div style="font-size:16px;line-height:1.7;color:#333333;"><strong style="color:#0A0A0A;">Exhaustive.</strong> All viable retrofit routes are exhaustively assessed, with asset-specific equipment selected, and scope priced by the installers who will actually deliver the work.</div>
+          <div style="font-size:16px;line-height:1.7;color:#333333;"><strong style="color:#0A0A0A;">Specialist.</strong> We price and deliver retrofit strategies as Principal Contractor, retaining delivery and EPC risk, rather than operating in an advisory role.</div>
+          <div style="font-size:16px;line-height:1.7;color:#333333;"><strong style="color:#0A0A0A;">Pre-capital.</strong> Decision-grade cost detail and EPC modelling are reached before capital deployment, so you can underwrite with confidence. Clarity™ before capital.</div>
+        </div>
+
+        <div style="font-size:21px;font-weight:600;color:#0A0A0A;max-width:600px;">Enhanced feasibility. A significant reduction in investment risk. Clarity™ before capital, always.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROCESS + TIMELINE (2-panel) -->
+  <div style="width:100%;box-sizing:border-box;padding:96px 56px;">
+    <div class="row" style="width: 1161px">
+      
+
+      
+    <div style="display:flex;flex-direction:column;gap:32px;max-width:680px;">
+
+        <h2 style="margin: 0; font-size: 28px; line-height: 1.1; color: #0A0A0A; font-weight: 700; height: 50px; width: 469px">The Vantage Clarity™ Process</h2><div style="max-width: 340px; display: flex; flex-direction: column">
+      <div style="color:#1677FF;font-size:70px;line-height:0.7;font-weight:700;margin:0 0 25px 0;">"</div>
+      <div style="font-size:26px;line-height:1.22;letter-spacing:-0.025em;color:#0A0A0A;">{{quote.text}}</div>
+      <div style="font-size:14px;line-height:1.5;color:#5A5A5A;margin-top:30px;">{{quote.name}}<br>{{quote.role}}</div>
+      <div style="margin-top:22px;">
+        <a href="#" style="font-size:14px;font-weight:600;color:#0A0A0A;border-bottom:1px solid #0A0A0A;padding-bottom:2px;">Read the {{quote.project}} case study →</a>
+      </div>
+      <div style="display:flex;gap:7px;margin-top:34px;">
+        <sc-for list="{{dots}}" as="d" hint-placeholder-count="3">
+          <div style="width:7px;height:7px;border-radius:50%;background:{{d.bg}};"></div>
+        </sc-for>
+      </div>
+    </div>
+
+        
+      </div><div style="display: flex; flex-direction: column; gap: 32px; max-width: 680px; height: 655px; justify-content: center">
+
+        <div style="display:flex;flex-direction:column;gap:6px;">
+          <div style="line-height: 1.7; color: #333333"><b style="font-size: 26px">Test Every Route</b></div><div style="font-size:16px;line-height:1.7;color:#333333;">Every viable retrofit pathway is tested to find the most efficient route to your target EPC rating, using our own analysis tool.</div>
+          <div style="line-height: 1.7; color: #333333; text-align: left"><strong style="color: rgb(10, 10, 10); font-size: 26px">Tender qualifying routes</strong></div><div style="font-size:16px;line-height:1.7;color:#333333;">Qualifying routes go through a targeted mini-tender to test installer pricing and buildability.</div>
+          <div style="line-height: 1.7; color: #333333"><strong style="color: rgb(10, 10, 10); font-size: 26px">Receive a Pre-approved certificate</strong></div><div style="font-size:16px;line-height:1.7;color:#333333;">A pre-approved EPC certificate is produced for the selected retrofit route.</div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 18px; padding-top: 20px; border-top: 1px solid #0A0A0A">
+          <div style="font-size:16px;line-height:1.7;color:#333333;">Vantage Clarity™ reaches installer-validated buildability and pricing at around <strong style="color:#0A0A0A;">week 9</strong>. A traditional route, MEES report, feasibility, design to RIBA Stage 3, tender process, typically doesn't reach the same point until around <strong style="color:#0A0A0A;">week 25</strong>.</div>
+          <div style="display: flex; flex-direction: column; gap: 6px; width: 622px; height: 168px">
+            <div style="display:flex;justify-content:space-between;font-size:12px;color:#797979;"><span>Vantage Clarity™</span><span class="mono">Week 9</span></div>
+            <div style="width:100%;height:6px;background:#EBEBEB;"><div style="width:34.6%;height:100%;background:#0A0A0A;"></div></div>
+            <div style="display:flex;justify-content:space-between;font-size:12px;color:#797979;margin-top:10px;"><span>Traditional route</span><span class="mono">Week 25</span></div>
+            <div style="width:100%;height:6px;background:#EBEBEB;"><div style="width:96.2%;height:100%;background:#B3B3B3;"></div></div>
+          </div>
+          <div style="font-size:12px;color:#8A8A8A;">Figures from the Clarity product deck — flagged for verification before publication.</div>
+        </div>
+      </div></div>
+  </div>
+
+  <!-- PROOF: real service-quote component, timer-rotated -->
+  
+
+  <!-- FAQS (2-panel, same accordion-row pattern as the Model section) -->
+  <div style="width:100%;box-sizing:border-box;padding:96px 56px;">
+    <div class="row">
+      <h2 style="margin: 0; font-size: 28px; line-height: 1.1; color: #0A0A0A; font-weight: 700">FAQs</h2>
+
+      <div style="display:flex;flex-direction:column;">
+        <div style="border-top:1px solid #0A0A0A;padding:26px 0;display:flex;justify-content:space-between;align-items:center;gap:16px;">
+          <span style="font-size:20px;color:#0A0A0A;font-weight:700;">What is Vantage Clarity™?</span>
+          <span style="font-size:20px;color:#8A8A8A;">–</span>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:6px;padding:0 0 26px 0;max-width:640px;">
+          <div style="height:10px;width:88%;background:#E2E2E2;"></div>
+          <div style="height:10px;width:64%;background:#E2E2E2;"></div>
+        </div>
+        <div style="border-top:1px solid #0A0A0A;padding:26px 0;display:flex;justify-content:space-between;align-items:center;gap:16px;">
+          <span style="font-size:20px;color:#0A0A0A;font-weight:700;">How is Vantage Clarity™ different from a feasibility study?</span>
+          <span style="font-size:20px;color:#8A8A8A;">+</span>
+        </div>
+        <div style="border-top:1px solid #0A0A0A;padding:26px 0;display:flex;justify-content:space-between;align-items:center;gap:16px;">
+          <span style="font-size:20px;color:#0A0A0A;font-weight:700;">How long does the Vantage Clarity™ process take?</span>
+          <span style="font-size:20px;color:#8A8A8A;">+</span>
+        </div>
+        <div style="border-top:1px solid #0A0A0A;padding:26px 0;display:flex;justify-content:space-between;align-items:center;gap:16px;">
+          <span style="font-size:20px;color:#0A0A0A;font-weight:700;">Does Vantage Clarity™ cost anything before I commit capital?</span>
+          <span style="font-size:20px;color:#8A8A8A;">+</span>
+        </div>
+        <div style="border-top:1px solid #0A0A0A;padding:26px 0;display:flex;justify-content:space-between;align-items:center;gap:16px;">
+          <span style="font-size:20px;color:#0A0A0A;font-weight:700;">Am I required to use Vantage to deliver the works Clarity™ recommends?</span>
+          <span style="font-size:20px;color:#8A8A8A;">+</span>
+        </div>
+        <div style="border-top:1px solid #0A0A0A;border-bottom:1px solid #0A0A0A;padding:26px 0;display:flex;justify-content:space-between;align-items:center;gap:16px;">
+          <span style="font-size:20px;color:#0A0A0A;font-weight:700;">Does Vantage Clarity™ cover EPC, retrofit and refurbishment, or just one?</span>
+          <span style="font-size:20px;color:#8A8A8A;">+</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RELATED SERVICES (2-panel, horizontal scroll row like the site's news carousel) -->
+  <div style="width:100%;box-sizing:border-box;padding:96px 0 96px 56px;background:#F5F5F5;">
+    <div style="display:grid;grid-template-columns:5fr 7fr;column-gap:56px;padding-right:56px;">
+      <h2 style="margin: 0; font-size: 28px; line-height: 1.1; color: #0A0A0A; font-weight: 700">Related Services</h2>
+      <div></div>
+    </div>
+    <div style="display:flex;gap:20px;overflow-x:auto;margin-top:32px;padding-right:56px;">
+      <div style="flex:0 0 300px;border:1px solid #E2E2E2;background:#FFFFFF;padding:18px;display:flex;flex-direction:column;gap:12px;">
+        <div style="height:170px;background:repeating-linear-gradient(135deg,#EAEAEA,#EAEAEA 12px,#E0E0E0 12px,#E0E0E0 24px);"></div>
+        <div style="font-size:16px;font-weight:700;color:#0A0A0A;">Commercial Retrofit</div>
+        <a href="#" style="font-size:13px;font-weight:600;color:#0A0A0A;">Learn more →</a>
+      </div>
+      <div style="flex:0 0 300px;border:1px solid #E2E2E2;background:#FFFFFF;padding:18px;display:flex;flex-direction:column;gap:12px;">
+        <div style="height:170px;background:repeating-linear-gradient(135deg,#EAEAEA,#EAEAEA 12px,#E0E0E0 12px,#E0E0E0 24px);"></div>
+        <div style="font-size:16px;font-weight:700;color:#0A0A0A;">Refurbishment</div>
+        <a href="#" style="font-size:13px;font-weight:600;color:#0A0A0A;">Learn more →</a>
+      </div>
+      <div style="flex:0 0 300px;border:1px solid #E2E2E2;background:#FFFFFF;padding:18px;display:flex;flex-direction:column;gap:12px;">
+        <div style="height:170px;background:repeating-linear-gradient(135deg,#EAEAEA,#EAEAEA 12px,#E0E0E0 12px,#E0E0E0 24px);"></div>
+        <div style="font-size:16px;font-weight:700;color:#0A0A0A;">Building Analytics</div>
+        <a href="#" style="font-size:13px;font-weight:600;color:#0A0A0A;">Learn more →</a>
+      </div>
+      <div style="flex:0 0 300px;border:1px solid #E2E2E2;background:#FFFFFF;padding:18px;display:flex;flex-direction:column;gap:12px;">
+        <div style="height:170px;background:repeating-linear-gradient(135deg,#EAEAEA,#EAEAEA 12px,#E0E0E0 12px,#E0E0E0 24px);"></div>
+        <div style="font-size:16px;font-weight:700;color:#0A0A0A;">Commercial EPC &amp; MEES Compliance</div>
+        <a href="#" style="font-size:13px;font-weight:600;color:#0A0A0A;">Learn more →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div style="width:100%;box-sizing:border-box;padding:48px 56px;background:#0A0A0A;display:flex;flex-direction:column;gap:24px;">
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;">
+      <div style="font-size:18px;font-weight:700;color:#FFFFFF;">VANTAGE</div>
+      <div style="display:flex;gap:26px;flex-wrap:wrap;">
+        <span style="font-size:13px;color:#B8B8B8;">About</span>
+        <span style="font-size:13px;color:#B8B8B8;">Our Services</span>
+        <span style="font-size:13px;color:#B8B8B8;">Projects</span>
+        <span style="font-size:13px;color:#B8B8B8;">Team</span>
+        <span style="font-size:13px;color:#B8B8B8;">Contact</span>
+        <span style="font-size:13px;color:#B8B8B8;">Privacy Policy</span>
+      </div>
+    </div>
+    <div style="height:1px;background:#2A2A2A;width:100%;"></div>
+    <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:12px;color:#8A8A8A;">
+      <span>+44 (0) 2039 602 330 &nbsp;·&nbsp; info@vantagezero.com</span>
+      <span>London &nbsp;·&nbsp; Manchester</span>
+      <span>A Bankfoot APAM Company</span>
+    </div>
+  </div>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":6200}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { quoteIndex: 0 };
+  }
+  componentDidMount() {
+    this._timer = setInterval(() => {
+      this.setState((s) => ({ quoteIndex: (s.quoteIndex + 1) % 3 }));
+    }, 6000);
+  }
+  componentWillUnmount() {
+    clearInterval(this._timer);
+  }
+  renderVals() {
+    const quotes = [
+      { text: "“What really impressed us was the early clarity on cost and EPC performance, and the fact these were maintained throughout delivery. That outcome has strengthened the robustness of our retrofit underwriting, and we see Clarity as a must-have input into future deals.”", name: "Lars Sindberg, Britannia Invest A/S", role: "Citygate, Newcastle", project: "Citygate" },
+      { text: "“We've managed this scheme for over 15 years and this has been the biggest upgrade since Soapworks' inception. Our client Greater Manchester Pension Fund has been really pleased with the outcome, and working with the Vantage team made it easy from day one.”", name: "Jennifer Bamber, Property Manager", role: "Soapworks, Salford", project: "Soapworks" },
+      { text: "“The project team were exceptional in their communication and delivery. They provided us with regular updates and technical advice. The process was executed smoothly with no disruption to tenants in situ. We wouldn't hesitate to use Vantage again.”", name: "Amy North, Park & Operations Manager", role: "1400 Arlington", project: "1400 Arlington" }
+    ];
+    const idx = this.state.quoteIndex;
+    return {
+      quote: quotes[idx],
+      dots: quotes.map((q, i) => ({ bg: i === idx ? '#0A0A0A' : '#DADADA' }))
+    };
+  }
+}
+</script>
+</body>
+</html>
